@@ -22,8 +22,8 @@ PRODUCT_RELEASE_NAME := p5100
 TARGET_SCREEN_HEIGHT := 480
 TARGET_SCREEN_WIDTH := 1280
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Candy5 stuff.
+$(call inherit-product, vendor/candy5/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p5100/full_p5100.mk)
@@ -34,7 +34,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso-common/overlay/cm-common
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p5100
-PRODUCT_NAME := cm_p5100
+PRODUCT_NAME := candy5_p5100
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P5100
 PRODUCT_MANUFACTURER := samsung
